@@ -7,7 +7,7 @@
 
 
 external_domain() {
-	echo "tomaszklim.pl"
+	echo "sparks.li"
 }
 
 internal_domain() {
@@ -19,19 +19,19 @@ local_backup_directory() {
 }
 
 management_public_ip_range() {
-	echo "88.99.100.17"
+	echo "148.251.127.219"
 }
 
 primary_admin_account() {
-	echo "tomek"
+	echo "jon"
 }
 
 heartbeat_url() {
-	echo "https://serverfarmer.home.pl/heartbeat/"
+	echo "https://internal.sparks.li/heartbeat/"
 }
 
 connectivity_check_url() {
-	echo "https://serverfarmer.home.pl/connection.php"
+	echo "https://internal.sparks.li/connection.php"
 }
 
 extension_repositories() {
@@ -39,5 +39,5 @@ extension_repositories() {
 }
 
 keys_repository() {
-	echo "https://github.com/serverfarmer/sf-keys"
+	echo "https://github.com/jonsparks/sf-keys"
 }
